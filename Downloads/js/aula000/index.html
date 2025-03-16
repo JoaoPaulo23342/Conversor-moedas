@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto</title>
+    <script defer src="index.js"></script>
+    <style>Div#area {
+          font: normal 19px arial;
+          background: green;
+          color: white;
+          width: 200px;
+          height: 200px;
+          line-height: 200px;
+          text-align: center; 
+          cursor: pointer;
+          align-items: center; 
+          display: block;
+
+          
+          
+
+}
+    </style>
+</head>
+<body>
+
+    <Div id="area" >
+        interaja...
+
+    </Div>
+   <script>
+        
+        let clicked = false;
+         let a = document.getElementById('area');
+          a.addEventListener('click', clicar);
+           function clicar() {
+             if (clicked) {
+                 area.innerText = 'interaja...';
+                  area.style.color = 'white';
+                   area.style.backgroundColor = 'green';
+                 }
+                  else { area.innerText = 'Clicou !';
+                   area.style.color = 'black';
+                    area.style.backgroundColor = 'blue';
+                 }
+                  clicked = !clicked;
+                }
+      
+    </script>
+    
+</body>
+</html>
