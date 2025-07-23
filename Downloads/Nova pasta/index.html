@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CEP</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="Navbar">
+            <a href="index.html" class="Navbar__brand">
+                <i class="fa fa-home"></i>
+                <span>CEP</span>
+            </a>
+            
+            <button class="Navbar__toggle" id="navbarToggle">
+                <i class="bi bi-list"></i>
+            </button>
+            
+            <div class="Navbar__items" id="navbarItems">
+                <a href="#discover">CEP</a>
+                <a href="#">Contato</a>
+                <a href="services.html">Serviços</a>
+            </div>
+        </nav>
+    </header>
+    
+    <h1 id="discover">Descubra seu CEP</h1>
+    
+    <div id="app">
+        <input type="text" id="name" class="nome" placeholder="Digite um CEP">
+        <button class="btn" id="botao">
+            <i class="fa fa-send"></i>
+            <span>Adicionar</span>
+        </button>
+        <ul id="results"></ul>
+    </div>
+    <footer>
+    <p>Desenvolvido por <a href="https://www.linkedin.com/in/joaopauloresende/">João Paulo</a></p>
+    <ul class="contatos">
+        <li>
+            <a href="https://www.linkedin.com/in/joaopauloresende/" target="_blank">
+                <i class="bi bi-linkedin"></i> Linkedin
+            </a>
+        </li>
+        <li>
+            <a href="https://github.com/joaopaulo" target="_blank">
+                <i class="bi bi-github"></i> GitHub
+            </a>
+        </li>
+        <li>
+            <a href="mailto:joao@exemplo.com">
+                <i class="bi bi-envelope"></i> Email
+            </a>
+        </li>
+    </ul>
+</footer>
+    <script src="index.js">
+        
+    </script>
+</body>
+</html>
